@@ -1,0 +1,12 @@
+import os
+
+os.system("cls|| clear")
+
+nome: str ="Mateus"
+idade: int =20 
+peso:float =60.5
+print(f"Nome:{nome}")
+print(f"Idade:{idade}")
+print(f"Peso:{peso:.3f}")
+
+  
