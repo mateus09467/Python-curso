@@ -1,0 +1,22 @@
+import os 
+
+#Limpa o terminal.
+os.system("cls||clear")
+
+nome:str
+idade:int
+peso:float
+
+#solicitando dados para usuario
+print("pressione qualquer tecla para continuar...")
+input()
+print("/nComeçando excutar!")
+
+
+nome=input("Digite seu nome:")
+idade=int(input('Digite a sua idade:'))
+peso=float(input('digite seu peso:'))
+print(f"Nome:{nome}")
+print(f"idade:{idade}")
+print(f"peso:{peso}Kg")
+
